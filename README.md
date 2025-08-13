@@ -5,9 +5,9 @@ A comprehensive test automation framework built with Playwright and TypeScript f
 ## Application Under Test
 We are using https://shop.qaautomationlabs.com/ as the Application Under Test. This App is built on PHP language.
 
-URL: https://shop.qaautomationlabs.com/
-OS : macOS
-IDE : Visual Studio Code
+- URL: https://shop.qaautomationlabs.com/
+- OS : macOS
+- IDE : Visual Studio Code
 
 ## Features
 
@@ -36,12 +36,25 @@ IDE : Visual Studio Code
 
 ## Installation
 
-1. Install dependencies:
+#### Installation
+
+Install the dependencies and devDependencies to run the test.
+
+- Clone (OR) Download this repo as zip folder on to your local machine
+- Navigate to project's directory on terminal and run the following commands:
+
+1. Clone the repository
+
+```bash
+GitHub: git clone https://github.com/JayKishoreDuvvuri/Playwright-TypeScript-AI-Bolt.git
+```
+
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-2. Install Playwright browsers:
+3. Install Playwright browsers:
 ```bash
 npm run install-browsers
 ```

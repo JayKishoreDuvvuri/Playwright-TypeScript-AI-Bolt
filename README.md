@@ -36,8 +36,6 @@ We are using https://shop.qaautomationlabs.com/ as the Application Under Test. T
 
 ## Installation
 
-#### Installation
-
 Install the dependencies and devDependencies to run the test.
 
 - Clone (OR) Download this repo as zip folder on to your local machine

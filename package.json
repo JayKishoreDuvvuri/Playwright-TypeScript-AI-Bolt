@@ -1,0 +1,38 @@
+{
+  "name": "playwright-test-framework",
+  "version": "1.0.0",
+  "description": "Playwright test automation framework for QA Automation Labs shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:chromium": "playwright test --project=chrome",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:mobile": "playwright test --project=mobile-chrome --project=mobile-safari",
+    "report": "playwright show-report",
+    "install-browsers": "playwright install",
+    "clean": "rimraf test-results playwright-report",
+    "test:login": "playwright test tests/ui/login.spec.ts --project=chrome",
+    "test:homepage": "playwright test tests/ui/homepage.spec.ts --project=chrome",
+    "test:e2e": "playwright test tests/e2e/ --project=chrome",
+    "test:ui-tests": "playwright test tests/ui/ --project=chrome",
+    "test:api": "playwright test tests/api/ --project=chrome"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "testing",
+    "automation",
+    "e2e"
+  ],
+  "author": "Test Automation Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^20.0.0",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.0"
+  }
+}

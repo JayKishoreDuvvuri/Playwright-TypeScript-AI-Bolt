@@ -46,7 +46,7 @@ Install the dependencies and devDependencies to run the test.
 1. Clone the repository
 
 ```bash
-GitHub: git clone https://github.com/JayKishoreDuvvuri/Playwright-TypeScript-AI-Bolt.git
+git clone https://github.com/JayKishoreDuvvuri/Playwright-TypeScript-AI-Bolt.git
 ```
 
 2. Install dependencies:
